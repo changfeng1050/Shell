@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShellDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_shutdown">Shutdown</string>
+    <string name="button_chmod">Chmod 666 ttymxc2</string>
+    <string name="button_ping">Ping</string>
+    <string name="button_copy_db_sdcard">Copy db from external sdcard</string>
+    <string name="button_copy_db_usb">Copy db from udisk</string>
+    <string name="button_copy_apns_conf_sdcard">Copy apns_conf.xml from sdcard</string>
+    <string name="button_copy_apns_conf_usb">Copy apns_conf.xml from usb</string>
+    <string name="button_factory_data_reset">Factory data reset</string>
+    <string name="button_dmesg">Dmesg</string>
+    <string name="button_exit">Exit</string>
+
+
+
+</resources>

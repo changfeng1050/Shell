@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShellActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button_shutdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_shutdown" />
+
+    <Button
+        android:id="@+id/button_chmod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chmod" />
+
+    <Button
+        android:id="@+id/button_ping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ping" />
+
+    <Button
+        android:id="@+id/button_copy_db_sdcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_copy_db_sdcard" />
+
+    <Button
+        android:id="@+id/button_copy_db_usb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_copy_db_usb" />
+
+    <Button
+        android:id="@+id/button_copy_apns_conf_sdcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_copy_apns_conf_sdcard" />
+
+    <Button
+        android:id="@+id/button_copy_apns_conf_usb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_copy_apns_conf_usb" />
+
+    <Button
+        android:id="@+id/button_factory_data_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_factory_data_reset" />
+
+    <Button
+        android:id="@+id/button_dmesg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_dmesg" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_exit" />
+
+
+</LinearLayout>
